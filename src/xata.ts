@@ -22,9 +22,10 @@ const tables = [
   {
     name: "Users",
     columns: [
-      { name: "name", type: "string" },
+      { name: "first_name", type: "string" },
       { name: "email", type: "email" },
       { name: "bio", type: "text" },
+      { name: "last_name", type: "string" },
     ],
   },
 ] as const;
